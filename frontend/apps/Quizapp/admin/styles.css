@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  

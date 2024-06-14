@@ -1,0 +1,8 @@
+{
+    "/apps/Quizapp/auth": "/apis/auth.js" ,
+    "/apps/Quizapp/quizzes": "/apis/quizzes.js",
+    "/apps/Quizapp/addQuestion": "/apis/addQuestion.js",
+    "/apps/Quizapp/viewQuestions": "/apis/viewQuestions.js",
+    "/apps/Quizapp/assignQuestion": "/apis/assignQuestion.js",
+    "/apps/Quizapp/deleteQuestion": "/apis/deleteQuestion.js"
+}
