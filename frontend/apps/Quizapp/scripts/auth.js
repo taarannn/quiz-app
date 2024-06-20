@@ -25,4 +25,15 @@ document.getElementById('loginForm').addEventListener('submit', async function (
       alert('Login failed');
     }
   });
-  
+  /**
+ * Navigates to the given URL, this is different than loadPage which will
+ * load it without changing Window location.
+ * @param {string} url The URL to navigate to
+ */
+/*
+ function navigate(url) {
+	let normalizedUrl = getBalancedURL(_getRewrittenURL(url));	// normalize
+	if (!_isEncodedURL(normalizedUrl.href)) normalizedUrl = new URL(encodeURL(url));
+	window.location.assign(normalizedUrl.href);
+} 
+*/
